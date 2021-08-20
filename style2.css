@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+li {
+    list-style: none;
+    color: rgb(11, 121, 246);
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding: 10px;
+}
+@media only screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }
+}

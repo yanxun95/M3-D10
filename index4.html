@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="styles3.css" rel="stylesheet" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.356);">
+      <a class="navbar-brand" href="index1.html"><img src="Netflix_Logo_RGB.png" 
+        alt="Netflix Logo" height="40px"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      </div>
+      
+
+    </nav>
+    <div class="main">
+      <div class="centerDiv">
+        <div class="row align-items-center">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <h1>Edit Profile</h1>
+            <div class="row profileInformation">
+              <div class="col-4 pictureColumn">
+                <img
+                  src="avatar5.png"
+                  class="img-fluid"
+                  alt="profilePicture"
+                />
+                <!-- add edit button -->
+              </div>
+              <div class="col-8">
+                <div class="col">
+                  <div class="col align-self-start">
+                    <div>
+                      <input
+                        type="text"
+                        class="inputName"
+                        id="profile-name-entry"
+                        aria-labelledby="profile-name-entry-label"
+                        placeholder="Strive School"
+                        value="Strive School"
+                      />
+                    </div>
+                    <div class="profileLanguage">
+                      <h2 class="language">Language:</h2>
+                    </div>
+                    <div>
+                      <label></label>
+                      <select
+                        class="dropdownLanguage"
+                        name="languages"
+                        id="languages"
+                      >
+                        <option value="english">English</option>
+                        <option value="chinese">Chinese</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col align-self-center maturityBorder">
+                    <h2 class="h2Header">Maturity Settings:</h2>
+                    <div>
+                      <p class="ratings">All MATURITY RATINGS</p>
+                      <p class="showTitlesofMaturity">
+                        Show titles of <b>all maturity ratings</b> for this
+                        profile.
+                      </p>
+                    </div>
+                    <div>
+                      <button class="editButton">EDIT</button>
+                    </div>
+                  </div>
+                  <div class="col align-self-end autoplayControls">
+                    <h2 class="h2Header">Autoplay controls</h2>
+                    <div class="autoPlayOption">
+                      <input type="checkbox" class="checkBox" />
+                      <div class="autoplayCheckboxDetails">
+                        <span
+                          >Autoplay next episode in a series on all
+                          devices.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="autoPlayOption">
+                      <input type="checkbox" class="checkBox" />
+                      <div class="autoplayCheckboxDetails">
+                        <span
+                          >Autoplay previews whilst browsing on all
+                          devices.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn select">SAVE</button>
+            <button class="btn">CANCEL</button>
+            <button class="btn">DELETE PROFILE</button>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

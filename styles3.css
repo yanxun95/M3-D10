@@ -1,0 +1,176 @@
+body,
+html {
+  background: #141414;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 10px;
+}
+
+.row {
+  position: static;
+  background: #141414;
+  color: #fff;
+  --bs-gutter-x: 0;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+  background: green;
+  height: 20vh;
+  width: 33vh;
+}
+
+.align-items-center {
+  background: #141414;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4vw;
+  margin: 0;
+  font-weight: 400;
+}
+
+.profileInformation {
+  padding: 2em 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.pictureColumn {
+  padding-right: 1.5vw;
+}
+
+.inputName {
+  width: 16em;
+  height: 2em;
+  background: #666;
+  border: 1px solid transparent;
+  /* margin: 0 0.8em 0 0; */
+  padding: 0.2em 0.6em;
+  color: #fff;
+  font-size: 1.3vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-indent: 0.1vw;
+}
+
+.profileLanguage {
+  margin-top: 1rem;
+}
+
+.language {
+  font-size: 1.3vw;
+  margin-bottom: 7px;
+  color: #ccc;
+}
+
+.dropdownLanguage {
+  height: 2.5rem;
+  padding-left: 10px;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  appearance: none;
+  border-radius: 0;
+  position: relative;
+  padding-right: 50px;
+}
+
+.maturityBorder {
+  margin: 1.5vw 0 0 0;
+  border-top: 1px solid #333;
+  padding: 1.5vw 0 0 0;
+  font-size: 1vw;
+}
+
+.h2Header {
+  margin: 0 0 14px 0;
+  color: #ccc;
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.ratings {
+  border-radius: 2px;
+  background: #333;
+  padding: 7px 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.showTitlesofMaturity {
+  font-size: 1vw;
+}
+
+.editButton {
+  font-size: 1vw;
+  margin: 1em 0 1em 0;
+  border: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.autoplayControls {
+  margin: 1.5vw 0 0 0;
+  border-top: 1px solid #333;
+  padding: 1.5vw 0 0 0;
+}
+
+.autoplayCheckboxDetails {
+  font-size: 0.9vw;
+}
+
+.btn {
+  font-size: 1vw;
+  margin: 2em 1em 1em 0;
+  border: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.select {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+
+.checkBox {
+  display: none;
+  border: 1px solid #333;
+  color: #99a1a7;
+  border-radius: 0;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5em;
+  font-size: 0.8vw;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.autoPlayOption {
+  display: flex;
+}
+
+.autoplayCheckboxDetails {
+  width: 100%;
+  padding-top: 8px;
+}

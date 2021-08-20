@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Netflix</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      style="background-color: rgba(0, 0, 0, 0.356)"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img src="Netflix_Logo_RGB.png" alt="Netflix Logo" height="40px" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="backOffice.html">Back Office</a>
+          </li>
+        </ul>
+
+        <a href="#" style="color: grey" class="px-2"
+          ><i class="fa fa-search"></i
+        ></a>
+        <a
+          class="active"
+          style="color: grey; text-decoration: none"
+          class="px-2"
+          href="index4.html"
+          >Kids</a
+        >
+
+        <a href="#" style="color: white" class="px-2"
+          ><i class="fa fa-bell"></i
+        ></a>
+      </div>
+      <div class="dropdown" style="color: white">
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <img
+            src="avatar.png"
+            alt="Avatar"
+            class="rounded-circle"
+            class="px-2"
+            width="40"
+            height="30"
+          />
+        </button>
+
+        <div
+          class="dropdown-menu px-2"
+          style="opacity: 0.8"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <a class="dropdown-item" href="indexaccount.html">Account Settings</a>
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="#">Sign out</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main-container" style="margin-top: 20px">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <h5>TV Shows</h5>
+          </div>
+          <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Genres
+              </button>
+
+              <div
+                class="dropdown-menu px-2"
+                style="opacity: 0.8"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a class="dropdown-item" href="#">Genres</a>
+                <a class="dropdown-item" href="#">Movies</a>
+                <a class="dropdown-item" href="#">Web Series</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center spinner">
+        <div class="spinner-border text-primary d-none" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+
+      <!-- <div class="container mt-3">
+        <h6></h6>
+        <div class="row mx-n1 action">
+          <div class="col-sm-6 col-md-4 col-xl-2 px-1">
+            <div class="card">
+              <img src="" class="card-img-top img-fluid" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <footer style="background-color: rgba(0, 0, 0, 0.445); margin-top: 2rem">
+      <div class="container">
+        <div class="social">
+          <i
+            class="fa fa-facebook-f icon"
+            style="font-size: 1.5rem; color: rgba(245, 245, 245, 0.431)"
+          ></i>
+          <i
+            class="fa fa-instagram"
+            style="font-size: 1.5rem; color: rgba(245, 245, 245, 0.431)"
+          ></i>
+          <i
+            class="fa fa-twitter icon"
+            style="font-size: 1.5rem; color: rgba(245, 245, 245, 0.431)"
+          ></i>
+          <i
+            class="fa fa-youtube-square icon"
+            style="font-size: 1.5rem; color: rgba(245, 245, 245, 0.431)"
+          ></i>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p style="font-size: 12px; color: rgba(255, 255, 255, 0.795)">
+              audio and subscribe
+            </p>
+            <p style="font-size: 12px; color: white">Media center</p>
+            <p style="font-size: 12px; color: white">privacy</p>
+            <p style="font-size: 12px; color: white">contact us</p>
+            <button
+              type="button"
+              style="
+                padding: 4px;
+                background-color: rgba(63, 58, 58, 0.123);
+                color: rgba(246, 244, 240, 0.247);
+                opacity: 0.7;
+              "
+            >
+              Service code
+            </button>
+          </div>
+          <div class="col">
+            <p style="font-size: 12px; color: white">audio description</p>
+            <p style="font-size: 12px; color: white">investor relations</p>
+            <p style="font-size: 12px; color: white">legal notices</p>
+          </div>
+          <div class="col">
+            <p style="font-size: 12px; color: white">help center</p>
+            <p style="font-size: 12px; color: white">jobs</p>
+          </div>
+          <div class="col">
+            <p style="font-size: 12px; color: white">gift card</p>
+            <p style="font-size: 12px; color: white">Terms use</p>
+            <p style="font-size: 12px; color: white">corporate information</p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size: 12px; color: white; text-align: center">
+        &copy; all rights resreved by netflix 2021 /4184128818
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
