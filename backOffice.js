@@ -31,8 +31,6 @@ window.onload = async () => {
         movieCategoryArr.forEach(category => {
             getMovie(category);
         });
-        fillTheInput(movieArr);
-
     } else {
         btnBackOfficeSubmit.innerHTML = "Submit"
     }
